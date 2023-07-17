@@ -1,1 +1,1 @@
-# stats
+# stats - csv files with playoffs logs of multiple NBA players. The program goes through the csv file and isolates the specified year, team, or both and displays the date of the game, opponent team (if chosen), and the chosen catagory
