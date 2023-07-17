@@ -1,0 +1,26 @@
+QLabel {
+    color: #ffffff;
+}
+
+QWidget {
+    background-color: #3b3b3b;
+
+}
+
+QTextEdit {
+    color: #ffffff;
+
+}
+
+QComboBox {
+    color:#ffffff;
+}
+
+QPushButton {
+    color: #ffffff;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #333333;
+    color: white;
+}

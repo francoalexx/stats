@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Stats</class>
+ <widget class="QMainWindow" name="Stats">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="button">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>150</y>
+      <width>171</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Submit Selections</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>-60</x>
+      <y>10</y>
+      <width>981</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>5</number>
+    </property>
+    <property name="midLineWidth">
+     <number>5</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>90</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Lebron James</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Stephen Curry</string>
+     </property>
+     <property name="icon">
+      <iconset theme="Warriors">
+       <normaloff>.</normaloff>.</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Shaquille O'Neal</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kobe Bryant</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bam Adebayo</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>50</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Select Player</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>50</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Select Stat</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>80</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Points</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Assists</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rebounds</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Steals</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Blocks</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fouls</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Free Throws</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Three Pointers</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Field Goals</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTextEdit" name="machine">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>80</y>
+      <width>104</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>50</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Type Year</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>-60</x>
+      <y>180</y>
+      <width>981</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>5</number>
+    </property>
+    <property name="midLineWidth">
+     <number>5</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="print_button">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>220</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Print</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="printArea">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>270</y>
+      <width>381</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>210</y>
+      <width>21</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>5</number>
+    </property>
+    <property name="midLineWidth">
+     <number>5</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_6">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>210</y>
+      <width>21</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>5</number>
+    </property>
+    <property name="midLineWidth">
+     <number>5</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="yesBox">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>240</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Yes</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="noBox">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>240</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>No</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>191</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Filter for Specific Teams? </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>280</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>If Yes,</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="oppBox">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>350</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Choose</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ATL</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BOS</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BKN</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CHA</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CHI</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CLE</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DAL</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DEN</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DET</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>GSW</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>HOU</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>IND</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>LAC</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>LAL</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MEM</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MIA</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MIL</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MIN</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NOP</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NYK</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>OKC</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ORL</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>PHI</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>PHX</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>POR</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SAC</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SAS</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>TOR</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>UTA</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>WAS</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>300</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Select Opponent Team</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>150</y>
+      <width>241</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Leave this empty to view the entire players stats</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>170</y>
+      <width>201</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
